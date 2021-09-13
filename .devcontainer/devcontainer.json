@@ -5,5 +5,36 @@
   ],
   "settings": {
     "codeQL.runningQueries.memory": 2048
+    "codeQL.remoteRepositoryLists": {
+        "test-list": [     
+            "github/github",
+            "dsp-testing/verdaccio",
+            "dsp-testing/dojo",
+            "dsp-testing/react",
+            "dsp-testing/mongo-express",
+            "dsp-testing/ioBroker.web",
+            "dsp-testing/pym.js",
+            "dsp-testing/cli",
+            "dsp-testing/scratch-vm",
+            "dsp-testing/swagger-ui",
+            "dsp-testing/MQTT.js",
+            "dsp-testing/angular.js",
+            "dsp-testing/webtorrent",
+            "dsp-testing/monaco-editor",
+            "dsp-testing/node-postgres",
+            "dsp-testing/CyberChef"
+        ],
+        "github/github": [     
+            "github/github"
+        ],
+        "xss-list": [
+            "dsp-testing/textAngular",
+            "dsp-testing/jsuites",
+            "dsp-testing/sakai",
+            "dsp-testing/threema-web",
+            "dsp-testing/microweber",
+            "dsp-testing/vditor"
+        ]
+    },
   }
 }
