@@ -5,7 +5,7 @@
   ],
   "settings": {
     "codeQL.canary": true,
-    "codeQL.runningQueries.memory": 2048
+    "codeQL.runningQueries.memory": 2048,
     "codeQL.remoteRepositoryLists": {
         "test-list": [     
             "github/github",
